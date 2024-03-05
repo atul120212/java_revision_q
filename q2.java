@@ -12,9 +12,5 @@ public class q2{
             num--;
         }
         System.out.println("Factorial is: "+fact);
-
-
-
-
     }
 }
