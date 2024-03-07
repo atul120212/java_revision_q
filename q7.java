@@ -1,14 +1,14 @@
 import java.util.*;
 public class q4{
+    public static int sum(int a, int b){
+        return a+b;
+    }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
-        for(int i=4;i>0;i++){
-            for(int j=i;j<0;j++){
-                System.out.print(" ");
-                
-            }
-            System.out.println("*");
-        }
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        System.out.print("Sum of "+a+" and "+b+" is: ");
+        System.out.print(sum(a,b));
 
     }
 }
