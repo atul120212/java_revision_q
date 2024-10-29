@@ -1,5 +1,5 @@
 import java.util.*;
-public class q4{
+public class q7{
     public static int sum(int a, int b){
         return a+b;
     }
