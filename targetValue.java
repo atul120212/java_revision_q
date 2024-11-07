@@ -10,5 +10,4 @@ public class targetValue {
         int nums[] = {2,1,6,3,8,5};
         findTraget(nums, 2);
     }
-    
 }
